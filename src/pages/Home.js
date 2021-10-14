@@ -9,11 +9,11 @@ function Home() {
     //Animation
     const container = useRef()
     function animation (){
-        container.current.classList.add("sign-up-mode")
+        container.current.classNameList.add("sign-up-mode")
         console.log(container) 
     }
     function remov(){
-        container.current.classList.remove("sign-up-mode")
+        container.current.classNameList.remove("sign-up-mode")
         console.log(container) 
     }
     // handle signup 
@@ -121,9 +121,9 @@ function Home() {
                         <p>
                         silahkan login apabila anda sudah memiliki akun magangs
                         </p>
-                        <button className="btn1 transparent" id="sign-in-btn" onClick={remov}>
+                        <Link to="/after"><button className="btn1 transparent" id="sign-in-btn" onClick={remov}>
                         Sign in
-                        </button>
+                        </button></Link>
                     </div>
                     <img src={Login} className="image" alt="" />
                     </div>

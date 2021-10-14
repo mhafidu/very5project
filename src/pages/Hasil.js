@@ -45,14 +45,14 @@ function Hasil() {
                 </div>
             </main>        
             {/* <!-- Modal --> */}
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-                <div class="modal-dialog  modal-lg" >
-                    <div class="modal-content" style={{borderRadius:"20px"}}>                        
-                        <div class="modal-body d-flex flex-column align-items-center">
-                            <h3 class="text-center" style={{color:"#0497E1"}}><b> Untuk Konfirmasi lebih lanjut Cek email anda!</b></h3>
+            <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                <div className="modal-dialog  modal-lg" >
+                    <div className="modal-content" style={{borderRadius:"20px"}}>                        
+                        <div className="modal-body d-flex flex-column align-items-center">
+                            <h3 className="text-center" style={{color:"#0497E1"}}><b> Untuk Konfirmasi lebih lanjut Cek email anda!</b></h3>
                             <img src = {Konfirmasi}></img>
                             <p  style={{color:"#0497E1"}}>Selamat data telah berhasil diupload</p>
-                            <button type="button" class="btn btn-primary mt-3" data-bs-dismiss="modal">Mengerti</button>
+                            <button type="button" className="btn btn-primary mt-3" data-bs-dismiss="modal">Mengerti</button>
                         </div>                    
                     </div>
                 </div>
