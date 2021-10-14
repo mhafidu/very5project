@@ -18,8 +18,8 @@ function Sidebar() {
                         <img src={LogoPro}></img>
                     </div>                   
                     <div className="name-sidebar">
-                        <p  class="h5 text-center"><b>User Name</b></p>
-                        <p class="h6 text-center">Web designer,<br/>Front-End Web Developer</p>
+                        <p  className="h5 text-center"><b>User Name</b></p>
+                        <p className="h6 text-center">Web designer,<br/>Front-End Web Developer</p>
                     </div>
                 </div>
                 
