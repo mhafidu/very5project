@@ -1,5 +1,7 @@
 import React from 'react'
 import '../Umum.css'
+import Per from '../asset/per.jpg'
+import Shop from '../asset/shop.jpg'
 
 
 function Umum() {
@@ -11,41 +13,41 @@ function Umum() {
                 <hr/>
                     <div className="list-umum">
                     <div className="list-item-umum">
-                        <img src="https://source.unsplash.com/random/60x60" alt=""/>
+                        <img src={Per} alt=""/>
                         <div className="deskripsi-umum">
-                        <h5>PT.Pertamina</h5>
+                        <p className="h5"><b>PT.Pertamina</b> </p>
                         <p>Pelatihan pembuatan wesite mulai dari penentuan ide,penentuan fitur ,desain wire frane,desain UI,dan 
                             coding.Pelatihan ini juga ada pelatihan coding website mulai dari HTML sampai Java Scripth</p>
                         </div>  
                     </div>
                     <div className="list-item-umum">
-                        <img src="https://source.unsplash.com/random/61x61" alt=""/>
+                        <img src={Shop} alt=""/>
                         <div className="deskripsi-umum">
-                        <h5>Shopee</h5>
+                        <p className="h5"><b>Shopee</b> </p>
                         <p>Pelatihan pembuatan wesite mulai dari penentuan ide,penentuan fitur ,desain wire frane,desain UI,dan 
                             coding.Pelatihan ini juga ada pelatihan coding website mulai dari HTML sampai Java Scripth</p>
                         </div>
                     </div>
                     <div className="list-item-umum">
-                        <img src="https://source.unsplash.com/random/60x60" alt=""/>
+                        <img src={Shop} alt=""/>
                         <div className="deskripsi-umum">
-                        <h5>Shopee</h5>
+                        <p className="h5"><b>Shopee</b> </p>
                         <p>Pelatihan pembuatan wesite mulai dari penentuan ide,penentuan fitur ,desain wire frane,desain UI,dan 
                             coding.Pelatihan ini juga ada pelatihan coding website mulai dari HTML sampai Java Scripth</p>
                         </div>
                     </div>
                     <div className="list-item-umum">
-                        <img src="https://source.unsplash.com/random/61x61" alt=""/>
+                        <img src={Shop} alt=""/>
                         <div className="deskripsi-umum">
-                        <h5>Shopee</h5>
+                        <p className="h5"><b>Shopee</b> </p>
                         <p>Pelatihan pembuatan wesite mulai dari penentuan ide,penentuan fitur ,desain wire frane,desain UI,dan 
                             coding.Pelatihan ini juga ada pelatihan coding website mulai dari HTML sampai Java Scripth</p>
                         </div>
                     </div>
                     <div className="list-item-umum">
-                        <img src="https://source.unsplash.com/random/60x60" alt=""/>
+                        <img src={Shop} alt=""/>
                         <div className="deskripsi-umum">
-                        <h5>Shopee</h5>
+                        <p className="h5"><b>Shopee</b> </p>
                         <p>Pelatihan pembuatan wesite mulai dari penentuan ide,penentuan fitur ,desain wire frane,desain UI,dan 
                             coding.Pelatihan ini juga ada pelatihan coding website mulai dari HTML sampai Java Scripth</p>
                         </div>

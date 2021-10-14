@@ -20,10 +20,11 @@
     align-items: center;
 }
 .foto-profil-sidebar{
-    border: 2px solid rgb(255, 0, 162);
+    border: 2px solid rgb(4, 151, 225);
     width: 150px;
     height: 150px;
     display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     border-radius: 100%;

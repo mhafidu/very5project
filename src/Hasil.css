@@ -59,4 +59,9 @@
     justify-content: space-between;
     width: 25%;
 }
+.image-hasi{
+    width: 151px;
+    height: 151px;
+    overflow: hidden;
+}
 

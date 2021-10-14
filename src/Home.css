@@ -17,7 +17,12 @@ body,input {
   min-height: 100vh;
   overflow: hidden;
 }
-
+.icon-form{
+  width: 30px;
+  height: 30px;
+  fill: #0497E1;
+  margin-left: 10px;
+}
 .forms-container {
   position: absolute;
   width: 100%;

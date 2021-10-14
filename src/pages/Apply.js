@@ -6,7 +6,11 @@ import Facebook from '../icon/Facebook.png'
 import Instagram from '../icon/Instagram.png'
 import Twiter from '../icon/Twiter.png'
 import Berasil from '../asset/berasil.png'
-
+import Gudang from '../asset/gudang.png'
+import kantorgd from '../asset/kantorgd.jpg'
+import Jobs1 from '../asset/jobs1.png'
+import Jobs2 from '../asset/jobs2.jfif'
+import Disri from '../asset/disri.png'
 function Apply() {
     const inputref = useRef(null);
     const inputref1 = useRef(null);
@@ -36,23 +40,23 @@ function Apply() {
                 <main className="main-apply">
                 {/* <!-- content-top --> */}
                     <div className="content-top-apply">
-                        <div className="background-apply"></div>
+                        <div className="background-apply"><img src={kantorgd} style={{width:'100%'}}></img></div>
                         <div className="document-user-apply">
-                            <div className="img-profil-apply"></div>                                      
+                            <div className="img-profil-apply"><img src={Gudang}></img></div>                                      
                             <div className="name-apply">
-                                    <h3>PT.Pertamina</h3>
-                                    <h6>Industri Oil, chemical gas</h6>
+                                    <h3>PT.Gudang Garam</h3>
+                                    <h6>Cigarettes Company Indonesia</h6>
                                 </div>
                                 <div className="list-addres-apply">
                                     <div className="addres1-apply">
-                                        <span>Solo,Jawa Tengah</span>
+                                        <span>Jakarta,Indonesia</span>
                                         <span>081239900323</span>
-                                        <span>pertamina@gmail.com</span>
+                                        <span>GudangGaram@gmail.com</span>
                                     </div>
                                     <div className="addres2-apply">
-                                        <span><img src={Facebook} alt=""/> Username Sosial Media</span>
-                                        <span><img src={Instagram} alt=""/> Username Sosial Media</span>
-                                        <span><img src={Twiter} alt=""/> Username Sosial Media</span>
+                                        <span><img src={Facebook} alt=""/> PT. GUDANG GARAM ,TBK</span>
+                                        <span><img src={Instagram} alt=""/> GUDANG_GARAM</span>
+                                        <span><img src={Twiter} alt=""/> Gudang_Garam</span>
                                     </div>    
                                 </div>
                         </div>
@@ -71,12 +75,21 @@ function Apply() {
                         {/* <!-- about --> */}
                         <h2><b>About</b></h2>
                         <br/>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos quae dolorem tenetur. Velit, molestias! Rem aperiam deleniti veniam iusto corporis, ratione error esse numquam laboriosam modi, unde dolore maiores..</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos quae dolorem tenetur. Velit, molestias! Rem aperiam deleniti veniam iusto corporis, ratione error esse numquam laboriosam modi, unde dolore maiores..</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos quae dolorem tenetur. Velit, molestias! Rem aperiam deleniti veniam iusto corporis, ratione error esse numquam laboriosam modi, unde dolore maiores..</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos quae dolorem tenetur. Velit, molestias! Rem aperiam deleniti veniam iusto corporis, ratione error esse numquam laboriosam modi, unde dolore maiores..</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos quae dolorem tenetur. Velit, molestias! Rem aperiam deleniti veniam iusto corporis, ratione error esse numquam laboriosam modi, unde dolore maiores..</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos quae dolorem tenetur. Velit, molestias! Rem aperiam deleniti veniam iusto corporis, ratione error esse numquam laboriosam modi, unde dolore maiores..</p>
+                        <p>Perusahaan rokok Gudang Garam adalah salah satu industri rokok terkemuka di tanah air 
+                            yang telah berdiri sejak tahun 1958 di kota Kediri, Jawa Timur. Hingga kini, Gudang Garam 
+                            sudah terkenal luas baik di dalam negeri maupun mancanegara sebagai penghasil rokok kretek
+                             berkualitas tinggi. Produk Gudang Garam bisa ditemukan dalam berbagai variasi, mulai sigaret 
+                             kretek klobot (SKL), sigaret kretek linting-tangan (SKT), hingga sigaret kretek linting-mesin (SKM). 
+                             Bagi Anda para penikmat kretek sejati, komitmen kami adalah memberikan pengalaman tak tergantikan dalam 
+                             menikmati kretek yang terbuat dari bahan pilihan berkualitas tinggi.</p>
+                             <br/>
+                             <p>Perusahaan rokok Gudang Garam adalah salah satu industri rokok terkemuka di tanah air 
+                            yang telah berdiri sejak tahun 1958 di kota Kediri, Jawa Timur. Hingga kini, Gudang Garam 
+                            sudah terkenal luas baik di dalam negeri maupun mancanegara sebagai penghasil rokok kretek
+                             berkualitas tinggi. Produk Gudang Garam bisa ditemukan dalam berbagai variasi, mulai sigaret 
+                             kretek klobot (SKL), sigaret kretek linting-tangan (SKT), hingga sigaret kretek linting-mesin (SKM). 
+                             Bagi Anda para penikmat kretek sejati, komitmen kami adalah memberikan pengalaman tak tergantikan dalam 
+                             menikmati kretek yang terbuat dari bahan pilihan berkualitas tinggi.</p>
                         {/* <!-- about-com --> */}
                         <div className="des-com">
                         <div className="item-des-com">
@@ -85,9 +98,9 @@ function Apply() {
                             <span>Website</span>
                         </div>
                         <div className="item-des-com">
-                            <span>Oil</span>
+                            <span>Cigarettes</span>
                             <span>2005</span>
-                            <span><a href="">www.pertamina.com</a></span>
+                            <span><a href="">www.GudangGaram.com</a></span>
                         </div>
                         </div>
                     </div>
@@ -102,10 +115,10 @@ function Apply() {
                             {/* <!-- title-job --> */}
                             <div className="accordion-body jobs-apply" >
                             <div className="pic-com">
-                                <img src="https://source.unsplash.com/random/100x100" alt="" />                    
+                                <img src={Jobs1} alt="" />                    
                             </div>
                             <div className="title-jobs-apply ">
-                                <h4>Digital Marketing </h4>
+                                <h4>IT Mobile APP </h4>
                                 <p>Dibutuhkan manager perusahaan cabang Jakarta, dengan syarat:</p>                    
                             </div>
                             </div>
@@ -135,7 +148,7 @@ function Apply() {
                         <div className="accordion-item border-0 uwu">
                             <div className="accordion-body jobs-apply" >
                             <div className="pic-com">
-                                <img src="https://source.unsplash.com/random/100x100" alt="" />                    
+                                <img src={Jobs2} alt="" />                    
                             </div>
                             <div className="title-jobs-apply">
                                 <h4>Digital Marketing </h4>
@@ -167,10 +180,10 @@ function Apply() {
                         <div className="accordion-item border-0 uwu" style={{borderRadius: "20px"}}>
                             <div className="accordion-body jobs-apply" >
                             <div className="pic-com">
-                                <img src="https://source.unsplash.com/random/100x100" alt="" />                    
+                                <img src={Disri} alt="" />                    
                             </div>
                             <div className="title-jobs-apply">
-                                <h4>Digital Marketing </h4>
+                                <h4>Distributor </h4>
                                 <p>Dibutuhkan manager perusahaan cabang Jakarta, dengan syarat:</p>                    
                             </div>
                             </div>

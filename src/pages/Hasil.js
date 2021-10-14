@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Hasil.css'
 import Konfirmasi from '../asset/konfirmasi.png'
+import Per from '../asset/per.jpg'
 
 
 function Hasil() {
@@ -12,7 +13,7 @@ function Hasil() {
                 <div className="list-hsl container" style={{maxWidth:"100%"}}>
                     <div className="list-hasil container" style={{maxWidth:"100%"}} data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div className="image-hasil container" style={{maxWidth:"25%"}}>
-                            <img src="https://source.unsplash.com/random/151x151" alt=""/>                        
+                            <img src={Per} alt=""/>                        
                         </div>
                         <div className="deskripsi-hasil container" style={{maxWidth:"75%"}}>                        
                         <p className="h5"><b> PT.Pertamina</b></p>
@@ -28,7 +29,7 @@ function Hasil() {
                     </div>
                     <div className="list-hasil container" style={{maxWidth:"100%"}} data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div className="image-hasil container" style={{maxWidth:"25%"}}>
-                            <img src="https://source.unsplash.com/random/151x151" alt=""/>                        
+                            <img src={Per} alt=""/>                        
                         </div>
                         <div className="deskripsi-hasil container" style={{maxWidth:"75%"}}>
                         <p className="h5"><b> PT.Pertamina</b></p>

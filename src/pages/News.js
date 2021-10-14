@@ -27,7 +27,7 @@ function News() {
                 </div>
                 <div className="slide-news">
                     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                        <div className="carousel-inner p-3">
+                        <div className="carousel-inner pb-3">
                         <div className="carousel-item active">
                             <div className="flex-row">
                             <div className="card me-5 card-news" style={{width: "20rem"}}>

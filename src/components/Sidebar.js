@@ -4,6 +4,7 @@ import Telp from '../asset/telp.png'
 import LogoPro from '../asset/LogPro.png'
 import Email from '../asset/email.png'
 import Location from '../asset/location.png'
+import Avatar from '../asset/avatar.png'
 
 
 // css
@@ -15,10 +16,10 @@ function Sidebar() {
             <div className="container-sidebar"> 
                 <div className="profil-sidebar">
                     <div className='foto-profil-sidebar'>
-                        <img src={LogoPro}></img>
+                        <img src={Avatar}></img>
                     </div>                   
                     <div className="name-sidebar">
-                        <p  className="h5 text-center"><b>User Name</b></p>
+                        <p  className="h5 text-center"><b>Hafidz</b></p>
                         <p className="h6 text-center">Web designer,<br/>Front-End Web Developer</p>
                     </div>
                 </div>

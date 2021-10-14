@@ -14,6 +14,7 @@
     height: 20px;
     margin: 10px;
     margin-left: 20px;
+    overflow: hidden;
     cursor: pointer;
 }
 .main-umum{
@@ -37,14 +38,15 @@
     margin-left: 20px;
 }
 
-.deskripsi-umum p{
-    font-size: 12px;
-}
+
 .list-item-umum img{
     border-radius: 100%;
+    width:61px ;
+    height: 61px;
 }
 .main-umum{
     padding: 50px;
     width: 60%;
     border-radius: 20px;
 }
+

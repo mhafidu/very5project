@@ -6,14 +6,17 @@
     background-color: #ffffff;
 }
 .containner-news{
-    padding: 42px;
+    
+    width: 1300px;
+    margin:  auto;
+    padding-top: 30px;
     
 }
 .high-news{
     margin: auto;
     display: flex;
     height: 300px;
-    width: 1270px;
+    width: 100%;
     
 }
 .card-news{
@@ -62,8 +65,9 @@
     padding: 20px;
 }
 .slide-news{
-    width: 1250px;
+    width: 100%;
     margin-top: 50px;
+   
 
 }
 .flex-row{

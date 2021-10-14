@@ -6,6 +6,7 @@ import Twiter from '../icon/Twiter.png'
 import List from '../icon/list.png'
 import Edu from '../icon/list-edu.png'
 import Berasil from '../asset/berasil.png'
+import Avatar from '../asset/avatar.png'
 // css
 import '../Profil.css'
 function profil() {
@@ -16,10 +17,10 @@ function profil() {
                     <div className = "content-top-profil">
                         <div className="background-profil"></div>
                         <div className="document-user-profil">
-                        <div className="img-profil"></div>
+                        <div className="img-profil"><img src={Avatar}></img></div>
                             <div className="description-user-profil">
                                 <div className="name-profil">
-                                    <h3>User Name</h3>
+                                    <h3>Hafidz</h3>
                                     <h6>Web Development, Fix bugs, Software Enginnering</h6>
                                 </div>
                                 <div className="list-addres-profil">
@@ -29,9 +30,9 @@ function profil() {
                                         <span>diwangsa@gmail.com</span>
                                     </div>
                                     <div className="addres2-profil">
-                                        <span><img src={Facebook} alt=""/> Username Sosial Media</span>
-                                        <span><img src={Instagram} alt=""/> Username Sosial Media</span>
-                                        <span><img src={Twiter} alt=""/> Username Sosial Media</span>
+                                        <span><img src={Facebook} alt=""/> MuhammadHafidUdzri</span>
+                                        <span><img src={Instagram} alt=""/> MuhammadHafidUdzri</span>
+                                        <span><img src={Twiter} alt=""/> hafidudzri</span>
                                     </div>    
                                 </div>
                             </div>

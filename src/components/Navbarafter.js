@@ -7,6 +7,7 @@ import Hasil from '../pages/Hasil'
 import Perusahaan from '../pages/Perusahaan'
 import Profil from '../pages/Profil'
 import Umum from '../pages/Umum'
+import Avatar from '../asset/avatar.png'
 
 import {
   BrowserRouter as Router,
@@ -41,14 +42,14 @@ function Navbarafter() {
                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <Link to="/Umum"> <li><a className="dropdown-item position-relative" href="#">Umum</a></li></Link>
                                         <Link to="/Hasil"> <li><a className="dropdown-item" href="#">Hasil</a></li> </Link>
-                                        <Link to="/News"><li><a classNameName = "dropdown-item">News</a> </li> </Link>
+                                        <Link to="/News"><li><a className="dropdown-item">News</a> </li> </Link>
                                     </ul>
                                 </div>
                             </a>
                             <a className="nav-link" href="#">
                             <Link to="/Profil"> <button type="button" className="btn btn-light d-flex align-items-center justify-content-between" style={{width:"220px"}}>
-                                    <div classNameName='image-user-navbar'>
-                                        <img src={Icon} style={{width:"10px"}}></img>
+                                    <div className="image-user-navbar">
+                                        <img src={Avatar} style={{width:"10px"}}></img>
                                     </div>
                                     <span classNameName="name-user-navbar"><b>Muhammad Hafidz</b></span>
                                 </button></Link>                                   
