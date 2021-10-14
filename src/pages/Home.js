@@ -10,11 +10,11 @@ function Home() {
     const container = useRef()
     function animation (){
         container.current.classList.add("sign-up-mode")
-        console.log(container) 
+         
     }
     function remov(){
         container.current.classList.remove("sign-up-mode")
-        console.log(container) 
+         
     }
     // handle signup 
     const [usernameState, setUsername] = useState("");
@@ -65,7 +65,7 @@ function Home() {
         <div>
 
             <div ref={container} className="container-home">
-                <div className="forms-container">
+                <div ref={container} className="forms-container">
                     <div className="signin-signup">
                     <form action="#" className="sign-in-form form">
                         <h2 className="title"><b>Sign in</b></h2>
