@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cd64461.chunk.css",
+    "main.js": "/static/js/main.29371acd.chunk.js",
+    "main.js.map": "/static/js/main.29371acd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2236dd60.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2236dd60.js.map",
+    "static/js/2.77b48b60.chunk.js": "/static/js/2.77b48b60.chunk.js",
+    "static/js/2.77b48b60.chunk.js.map": "/static/js/2.77b48b60.chunk.js.map",
+    "static/js/3.c855c6be.chunk.js": "/static/js/3.c855c6be.chunk.js",
+    "static/js/3.c855c6be.chunk.js.map": "/static/js/3.c855c6be.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5cd64461.chunk.css.map": "/static/css/main.5cd64461.chunk.css.map",
+    "static/js/2.77b48b60.chunk.js.LICENSE.txt": "/static/js/2.77b48b60.chunk.js.LICENSE.txt",
+    "static/media/BCA.519d4501.png": "/static/media/BCA.519d4501.png",
+    "static/media/astra.51e84791.png": "/static/media/astra.51e84791.png",
+    "static/media/bni.fb87dff1.png": "/static/media/bni.fb87dff1.png",
+    "static/media/bri.6d9cc894.png": "/static/media/bri.6d9cc894.png",
+    "static/media/bunga.9f569b76.svg": "/static/media/bunga.9f569b76.svg",
+    "static/media/check.95b494fb.svg": "/static/media/check.95b494fb.svg",
+    "static/media/cve.31392b47.png": "/static/media/cve.31392b47.png",
+    "static/media/gambar.bb9ca6e8.png": "/static/media/gambar.bb9ca6e8.png",
+    "static/media/gambar2.c4f8268c.svg": "/static/media/gambar2.c4f8268c.svg",
+    "static/media/gambar3.4832f1c5.svg": "/static/media/gambar3.4832f1c5.svg",
+    "static/media/globe.8c1618a4.svg": "/static/media/globe.8c1618a4.svg",
+    "static/media/gudang.f537b978.png": "/static/media/gudang.f537b978.png",
+    "static/media/konfirmasi.d929a2a0.png": "/static/media/konfirmasi.d929a2a0.png",
+    "static/media/login.fe39f5db.svg": "/static/media/login.fe39f5db.svg",
+    "static/media/mageng.c872d845.png": "/static/media/mageng.c872d845.png",
+    "static/media/mandiri.d77f45cc.png": "/static/media/mandiri.d77f45cc.png",
+    "static/media/permata.45c5158a.png": "/static/media/permata.45c5158a.png",
+    "static/media/semen.c23ef415.png": "/static/media/semen.c23ef415.png",
+    "static/media/signup.e672a93a.svg": "/static/media/signup.e672a93a.svg",
+    "static/media/telkom.09329e55.png": "/static/media/telkom.09329e55.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2236dd60.js",
+    "static/js/2.77b48b60.chunk.js",
+    "static/css/main.5cd64461.chunk.css",
+    "static/js/main.29371acd.chunk.js"
+  ]
+}
